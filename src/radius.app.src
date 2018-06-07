@@ -1,0 +1,22 @@
+%%% radius.app
+
+{application, radius,
+   [{description, "RADIUS Protocol Stack"},
+   {vsn, "1.4.4"},
+   {modules, [radius_app,
+			radius_sup,
+			radius_server_sup,
+			radius_fsm_sup,
+			radius_server,
+			radius_fsm,
+			radius,
+			radius_attributes]},
+   {maxP, infinity},
+   {maxT, infinity},
+   {registered, [radius]},
+   {included_applications, []},
+   {applications, [kernel, stdlib]},
+   {env, [{sock_opts, []}]},
+   {mod, {radius_app, []}},
+   {start_phases, []}]}.
+

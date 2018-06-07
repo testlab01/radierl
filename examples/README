@@ -1,0 +1,26 @@
+%%% README
+%%%
+
+The build and test phases expect the radius application to
+be in the runtime path.  Run 'make install' in the parent
+directory first.
+
+Port the example callbacks application to your environment:
+
+	$ aclocal; autoheader; autoconf; automake --add-missing
+	$ ./configure
+
+Build the example callbacks application and documentation:
+
+	$ make
+
+Run the test suites for the example callbacks application:
+
+	$ make check
+
+Install the example callbacks application:
+
+	$ make install
+
+Everything here is distributed under Apache License version 2.0 .
+

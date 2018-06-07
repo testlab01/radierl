@@ -1,0 +1,38 @@
+2018-01-07  Vance Shipley <vances@sigscale.org>
+
+	* radius_attributes.erl: add cisco vsa for call origin
+
+2017-12-31  Vance Shipley <vances@sigscale.org>
+
+	* radius_attributes.erl: correct semantics of store/4
+
+2017-11-24  Prahveen Thiruchelvam  <prahveen@sigscale.org>
+
+	* radius_attributes.erl: add functions to handle vendor specific attributes directly
+
+2017-08-29  Kalpa Gunarathna  <kalpa@sigscale.org>
+
+	* COPYING: change copyrights to Apache License 2.0
+
+2017-03-24  Vance Shipley  <vances@sigscale.org>
+
+	* radius_attributes.erl: add ascend vendor-specific attributes
+
+2017-01-24  Vance Shipley  <vances@sigscale.org>
+
+	* radius.erl: change api for start[_link]/3 to support socket options
+
+2016-09-05  Vance Shipley  <vances@sigscale.org>
+
+	* radius_attributes.erl: no longer orders attributes, new api
+	* radius.erl: change authenticator api, use crypto app
+
+2016-08-15  Vance Shipley  <vances@sigscale.org>
+
+	* radius.erl: behaviour callbacks changed to include delayed response
+	* radius_fsm.erl: added state to handle delayed response from handler
+
+2016-08-09  Vance Shipley  <vances@sigscale.org>
+
+	* radius.erl: behaviour callbacks changed to include state
+
